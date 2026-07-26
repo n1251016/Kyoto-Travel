@@ -23,7 +23,7 @@ https://n1251016.github.io/Kyoto-Travel/
 - Visual Studio Code
 - Figma
 - Adobe Photoshop
-- ChatGPT（文章の推敲・実装相談・コードレビュー）
+- ChatGPT（文章の校正・実装相談・コードレビュー）
 
 ## 主な工夫
 
