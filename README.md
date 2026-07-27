@@ -38,18 +38,6 @@ https://n1251016.github.io/Kyoto-Travel/
 
 - [京都観光サイト_制作資料.pdf](./京都観光サイト_制作資料.pdf)
 
-## ディレクトリ構成
-
-```
-Kyoto-Travel
-├── css
-├── img
-├── js
-├── works
-├── index.html
-├── README.md
-└── 京都観光サイト_制作資料.pdf
-```
 
 ## 使用素材
 
