@@ -15,7 +15,8 @@
 
 .spot-hero-image {
   width: 100%;
-  min-height: 380px;
+  height: 440px;
+  object-fit: cover;
   background-size: cover;
   background-position: center;
   border-radius: 16px;
@@ -35,7 +36,7 @@
 }
 
 .spot-content-body h3:not(:first-child) {
-  margin-top: 50px;
+  margin-top: 64px;
 }
 
 .spot-content-body h3::before {
@@ -66,6 +67,12 @@
 
 @media screen and (max-width: 1050px) {
   .spot-hero-image {
-    min-height: 320px;
+    height: 380px;
+  }
+}
+
+@media screen and (max-width: 660px) { 
+  .spot-hero-image {
+    height: 240px;
   }
 }
