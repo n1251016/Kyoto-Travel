@@ -5,29 +5,29 @@
     --color-primary: #9a4a3f;
     --color-primary-dark: #7d3b34;
     --color-primary-medium: #b35a4b;
-    
+
     /* Course Colors */
     --color-course-1: #b35a4b;
     --color-course-2: #7f9b7a;
     --color-course-3: #5c6f8a;
-    
+
     /* Neutral Colors */
     --color-white: #fff;
     --color-bg-light: #f9f9f9;
     --color-bg-light-gray: #e5e4e6;
     --color-light-badge: #f3e6e1;
-    
+
     /* Text Colors */
     --color-text-dark: #333;
     --color-text-lighter: #666;
     --color-text-lightest: #888;
 
-    
+
     /* Gray Shades */
     --color-gray-light: #ddd;
     --color-gray-medium: #afafb0;
     --color-gray-badge: #e7ecef;
-    
+
     /* Dark Colors */
     --color-dark-footer: #180614;
     --color-black: #000;
@@ -165,15 +165,7 @@ header a {
 #hamburger-links li {
     list-style: none;
     margin-top: 20px;
-}
-
-
-#hamburger-links span {
-    display: block;
-    width: 100%;
-    height: 2px;
-    background-color: var(--color-black);
-    margin-bottom: 20px;
+    border-bottom: 2px solid var(--color-black);
 }
 
 #hamburger-links p {
@@ -281,7 +273,7 @@ html.no-scroll {
     z-index: 10;
 }
 
-.pagetop__arrow {
+.pagetop_arrow {
     height: 10px;
     width: 10px;
     border-top: 3px solid var(--color-text-lighter);
@@ -639,7 +631,7 @@ html.no-scroll {
 
 .transport-badge.train {
     background: var(--color-gray-badge);
-    color: var(    --color-text-dark);
+    color: var(--color-text-dark);
 }
 
 .card-link {
@@ -693,7 +685,7 @@ footer {
     padding: 3rem 3rem;
 }
 
-.footer-content p{
+.footer-content p {
     margin: 0.5rem 0;
 }
 
@@ -724,6 +716,7 @@ footer {
 .footer-nav a:hover {
     text-decoration: underline;
 }
+
 /* メディアクエリ */
 
 @media screen and (max-width: 1050px) {
@@ -739,6 +732,20 @@ footer {
     header {
         padding: 1rem 2.5rem;
         font-size: 14px;
+    }
+
+    .pagetop {
+        height: 40px;
+        width: 40px;
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .pagetop_arrow {
+        height: 8px;
+        width: 8px;
+        border-top: 2px solid var(--color-text-lighter);
+        border-right: 2px solid var(--color-text-lighter);
     }
 
     .main-text {
@@ -798,9 +805,9 @@ footer {
     }
 
     .card-content h3 {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-}
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
 
     .card-content p {
         font-size: 0.8rem;
@@ -820,12 +827,31 @@ footer {
         font-size: 12px;
     }
 
+    .pagetop {
+        height: 30px;
+        width: 30px;
+        right: 10px;
+        bottom: 10px;
+    }
+
+    .pagetop_arrow {
+        height: 6px;
+        width: 6px;
+        border-top: 2px solid var(--color-text-lighter);
+        border-right: 2px solid var(--color-text-lighter);
+    }
+
     #menu-nav {
         display: none;
     }
 
     #hamburger-nav {
         display: block;
+    }
+
+    #hamburger-links ul{
+        padding-top: 6rem;
+        gap: 0.5rem;
     }
 
     .main-text h1 {
@@ -873,6 +899,14 @@ footer {
 
     #course-spots-3 {
         margin-top: 6rem;
+    }
+
+    .info-list {
+        padding: 2rem 0 0 0;
+    }
+
+    .mobile-text {
+        white-space: nowrap;
     }
 
     .br-mobile {
